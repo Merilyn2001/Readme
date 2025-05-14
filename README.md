@@ -1,97 +1,130 @@
-<p align="center">
-  <img src="https://i.imgur.com/CCEvz01.png" alt="Descrição da Imagem">
-</p>
+# Indicadores Sociais - Equipe 3
 
-# 📊 Indicadores Sociais em Cidades Brasileiras
+[![Status do Projeto](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)](#)
+![GitHub repo size](https://img.shields.io/github/repo-size/sthedsyl/desafio-4---trilhas)
+![GitHub contributors](https://img.shields.io/github/contributors/sthedsyl/desafio-4---trilhas)
 
-**Desafio 4 - Trilhas Inova**
+> **Dashboard interativo com indicadores sociais do Maranhão**, desenvolvido pela Equipe 3 do curso de Front-End - Trilhas Inova Maranhão, em parceria com o Governo do Estado e FAPEMA.
 
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen) ![Coverage](https://img.shields.io/badge/coverage-85%25-yellowgreen)
+---
 
-## 🌟 Visão Geral
+## 🔍 Objetivo do Projeto
 
-Este projeto faz parte do programa Trilhas Inova e visa criar uma plataforma interativa para explorar indicadores sociais em cidades brasileiras. Utilizamos tecnologias web para oferecer uma visão acessível e informativa sobre dados sociais.
+Este projeto tem como objetivo desenvolver um **dashboard web interativo**, que exiba indicadores sociais relevantes do estado do Maranhão, facilitando o acesso da população e de gestores públicos a informações que auxiliem na criação de políticas públicas.
 
-## 🎯 Objetivos do Projeto
+---
 
-- **Landing Page:** 
-  - Apresentar o projeto de forma envolvente.
-  - Direcionar os usuários para um dashboard interativo.
+## 🧩 Contexto do Desafio
 
-- **Dashboard:**
-  - Oferecer visualizações interativas de dados.
-  - Permitir análise detalhada por meio de filtros.
+Este projeto faz parte do **Desafio 4** do curso **Front-End Trilhas Inova Maranhão**, que propõe:
+
+- Criação de uma Landing Page informativa
+- Desenvolvimento de um Dashboard com dados reais
+- Consumo de **APIs públicas**
+- Visualização de dados por meio de gráficos interativos
+
+---
+
+## 📊 Indicadores Selecionados
+
+- População por município
+- Índice de Desenvolvimento Humano (IDH)
+- Taxa de analfabetismo
+- Taxa de desemprego
+- Acesso à internet
+- Renda média per capita
+
+---
+
+## 🌐 Fonte dos Dados
+
+Serão utilizadas **APIs públicas**, especialmente do [IBGE](https://servicodados.ibge.gov.br/api/docs/), além de outras fontes oficiais confiáveis.
+
+---
+
+## 📁 Organização do Projeto
+
+- `index.html` — Estrutura da Landing Page
+- `dashboard.html` — Página com os indicadores gráficos
+- `style.css` — Estilização do site
+- `script.js` — Lógica de consumo das APIs e interação com os dados
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML5 & CSS3:** Estrutura e estilo.
-- **JavaScript:** Interatividade.
-- **APIs Públicas:** Dados em tempo real.
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6+)**
+- **Fetch API**
+- **Chart.js (ou biblioteca equivalente para gráficos)**
+- **Git e GitHub**
 
-## 🚀 Como Iniciar
+---
 
-### Pré-requisitos
+## 📍 Repositório
 
-- Navegador Web (Chrome, Firefox, etc.)
+[Link do repositório no GitHub](https://github.com/sthedsyl/desafio-4---trilhas)
 
-### Instalação
+---
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seuprojeto/Indicadores_Sociais.git
-   ```
+## 📑 Documentação
 
-2. Acesse o diretório do projeto:
-   ```bash
-   cd Indicadores_Sociais
-   ```
+[Link para a documentação do projeto](https://exemplo.com/documentacao) *(substituir pelo link real)*
 
-3. Abra `index.html` em seu navegador.
+---
 
-## ✨ Funcionalidades
+## 🚀 Demonstração
 
-- **Visualizações Dinâmicas:** Gráficos e mapas interativos.
-- **Filtros Personalizados:** Análise por cidade e tema.
-- **Design Intuitivo:** Navegação fácil e clara.
+[Acesse a demonstração aqui](https://exemplo.com/projeto) *(substituir pelo link real)*
 
-## 📂 Estrutura do Projeto
+---
 
-```
-Indicadores_Sociais/
-├── index.html
-├── README.md
-├── pages/
-│   ├── dashboard.html
-│   └── about.html
-├── scripts/
-│   ├── main.js
-│   └── dashboard.js
-├── styles/
-│   ├── main.css
-│   └── dashboard.css
-└── assets/
-    ├── images/
-    └── data/
-```
+## 📈 Visualizações Sugeridas
 
-## 👥 Público-Alvo
+- Gráfico de barras comparando IDH entre municípios
+- Mapa interativo com taxa de analfabetismo
+- Linha do tempo da evolução populacional
+- Gráficos de pizza para acesso à internet e desemprego
 
-- Cidadãos em geral
-- Gestores públicos
-- ONGs e pesquisadores
+---
 
-## 📌 Notas
+## 🔮 Próximos Passos
 
-Este projeto é uma introdução ao desenvolvimento front-end e ao uso de dados sociais. Feedbacks são bem-vindos!
+- Adicionar filtros por região, idade e gênero
+- Garantir responsividade total em dispositivos móveis
+- Otimizar a acessibilidade para leitores de tela
+- Realizar testes com usuários
 
-**Desenvolvido por Grupo 3: Mérilyn Aroucha, Sthefane, Yasmin e Vitória**
+---
 
-## 📸 Visualizações
+## 👥 Equipe 3
 
-![Dashboard Screenshot](https://via.placeholder.com/800x400.png?text=Dashboard+Screenshot)
+| Integrante                      | Função              | GitHub                              |
+|--------------------------------|---------------------|-------------------------------------|
+| **Merilyn Aroucha Barros**     | Front-End Developer | [@Merilyn2001](https://github.com/Merilyn2001) |
+| **Sthefane Dias**              | Front-End Developer | [@sthedsyl](https://github.com/sthedsyl) |
+| **Vitória Eduarda**            | Front-End Developer | [@cordeirovics](https://github.com/cordeirovics) |
+| **Yasmin Cantanhede**          | Front-End Developer | [@yasmincantanhede](https://github.com/yasmincantanhede) |
 
-## 🔗 Links Úteis
+### Design
 
-- [Documentação Completa](https://example.com/docs)
-- [Demonstração Online](https://example.com/demo)
+| Integrante                      | Função   |
+|--------------------------------|----------|
+| **Renan Rodrigues Soeiro**     | Designer |
+| **Wliane Cristina Viana**      | Designer |
 
+---
+
+## 📝 Licença
+
+Este projeto está licenciado sob os termos da **Licença MIT**.  
+Confira o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+## ✨ Agradecimentos
+
+Feito com dedicação pela **Equipe 3**, como parte do curso **Front-End Trilhas Inova Maranhão**, com o apoio da **SECTI** e da **FAPEMA**.
+
+---
